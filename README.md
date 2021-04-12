@@ -1,2 +1,5 @@
-# Barcelona-Baseball-Website
- HTML, CSS, JavaScript, AngularJS and JQuery are used to create a simple website.
+![](ScreenShots/home.png)
+![](ScreenShots/honor1.png)
+![](ScreenShots/honor2.png)
+![](ScreenShots/follow.png)
+![](ScreenShots/feedback.png)
