@@ -1,0 +1,383 @@
+
+label{
+  color:white
+}
+#feedback{
+  width: 400;
+  height: 100;
+}
+
+#img1 {
+  width: 15vw;
+}
+#img2 {
+  width: 7vw;
+}
+#img3 {
+  width: 40vw;
+}
+.head {
+  color: white;
+  text-align: center;
+  border: solid #333;
+  margin: 0;
+  padding: 20px;
+  background-image: linear-gradient(to right, rgb(39, 211, 111), black);
+}
+
+#bodyHome {
+  margin: 20;
+  background-image: url("background2.jpg");
+  background-size: cover;
+  background-color: rgb(123, 173, 248);
+  background-repeat: repeat;
+  color: rgb(255, 255, 255);
+}
+#bodyDivision {
+  margin: 20;
+  background-image: url("background3.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgb(123, 173, 248);
+  background-repeat: repeat;
+  color: rgb(255, 255, 255);
+}
+#bodyInfo {
+  margin: 20;
+  background-image: url("background2.jpg");
+  background-size: cover;
+  background-color: rgb(123, 173, 248);
+  background-repeat: repeat;
+  color: black;
+}
+body {
+  margin: 20;
+  background-image: url("background2.jpg");
+  background-size: cover;
+  background-color: rgb(123, 173, 248);
+  background-repeat: repeat;
+  color: rgb(255, 255, 255);
+}
+
+#sizedDiv {
+  width: 200;
+}
+
+#divInfo {
+  border-radius: 25px;
+  background-color: rgba(179, 219, 219, 0.822);
+  font-size: 18;
+  width: 50vw;
+  display: inline-block;
+}
+
+#divSchedule {
+  border: black;
+  background-color: rgba(19, 77, 131, 0.829);
+  font-size: 25;
+  width: 50vw;
+  display: inline-block;
+}
+
+#div4 {
+  border-radius: 25px;
+  background-color: rgba(46, 155, 155, 0.747);
+  font-size: 25;
+  width: 50vw;
+  display: inline-block;
+}
+#div3 {
+  margin: 20;
+  text-align: center;
+}
+
+#grandParentDiv {
+  text-align: center;
+}
+#parentDiv {
+  padding: 30;
+  text-align: center;
+}
+
+#div1 {
+  border-radius: 25px;
+  border: 2px solid black;
+  width: 18vw;
+  background-color: rgba(154, 243, 239, 0.815);
+  padding: 50px 15px;
+  font-size: 35;
+  font-style: oblique;
+  text-decoration: none;
+  vertical-align: top;
+  display: inline-block;
+}
+
+#container {
+  background-color: rgb(154, 243, 239);
+  overflow: hidden;
+  width: 200px;
+}
+
+#inner {
+  overflow: hidden;
+  width: 2000px;
+}
+
+.child {
+  float: left;
+}
+
+
+
+
+.abutton:link,
+.abutton:visited {
+  background-color: rgb(30, 148, 70);
+  border-radius: 5px solid black;
+  color: rgb(220, 241, 255);
+  margin: 20;
+  border: solid black;
+  padding: 15px 14px;
+  text-decoration: none;
+  display: block;
+  box-shadow: 4px 9px #333;
+}
+
+.abutton:hover {
+  background-color: white;
+  color: black;
+  border: solid rgb(20, 175, 28);
+}
+
+.abutton:active {
+  background-color: black;
+  color: white;
+  box-shadow: 2px 5px black;
+}
+
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: rgb(41, 175, 97);
+  color: white;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+  float: right;
+}
+
+/* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnav a,
+  .topnav-right {
+    float: none;
+    display: block;
+  }
+
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+
+.slider {
+  width: 410px;
+  height: 310px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.slides {
+  display: block;
+  width: 8000px;
+  height: 400px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.slide {
+  float: left;
+  height: 310px;
+  width: 410px;
+}
+
+/*icon settings
+*/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+td {
+  margin: 10;
+  border-radius: 25px;
+  border: 1px solid #333;
+  font-size: 20;
+}
+
+/*for bottom bar */
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 20;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.navbar a.active {
+  background-color: rgba(102, 102, 102, 0.959);
+  color: white;
+} 
+
+
+.navbar b {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
+/* form check green or red*/
+
+.css-form input.ng-invalid.ng-touched {
+  background-color: #fa787e;
+}
+
+.css-form input.ng-valid.ng-touched {
+  background-color: #78fa89;
+}
+
+/* for pop up in feedback form*/
+
+
+.popup {
+  
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  background-color: rgb(30, 148, 70);
+  border-radius: 5px solid black;
+  color: rgb(220, 241, 255);
+  margin: 20;
+  border: solid black;
+  padding: 15px 14px;
+  text-decoration: none;
+  box-shadow: 4px 9px #333;
+}
+
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: rgba(14, 148, 65, 0.911);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  background-color: rgb(30, 148, 70);
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 0.9;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 0.9 ;}
+}

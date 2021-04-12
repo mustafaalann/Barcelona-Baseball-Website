@@ -1,0 +1,156 @@
+<html>
+<header>
+    <link rel="stylesheet" href="style.css">
+</header>
+
+
+<h1 class="head">
+    BARCELONE BASEBALL SOFTBALL CLUB
+</h1>
+
+<body id="bodyDivision">
+    <div class="topnav">
+
+        <div class="topnav-centered">
+            <a href="honordivision.html" class="active">HONOR DIVISION</a>
+        </div>
+
+        
+        <a href="schedules.html">SCHEDULES 2020</a>
+        <a href="homepage.html">HOME</a>
+
+        
+        <div class="topnav-right">
+            <a href="socialmedia.html">SOCIAL MEDIA</a>
+            <a href="info.html">INFO</a>
+        </div>
+
+    </div>
+
+    <div id="grandParentDiv">
+        <div id="parentDiv">
+            <div id="div1">
+                <img id="img1" src="logos.png" alt="pic with cup">
+                <a class="abutton" href="socialmedia.html" target="_self"> Click Here !!!</a>
+            </div>
+            
+            
+            <div id="div4">
+                <br>
+               
+                <div class="slider">
+                    <ul class="slides">
+                        <li class="slide"><img width="410" src="teampic1.jpg" alt="pic with cup"></li>
+                        <li class="slide"><img width="410" src="teampic2.jpg" alt="pic with cup"></li>
+                        <li class="slide"><img width="410" src="teampic3.jpg" alt="pic with cup"></li>
+                        <li class="slide"><img width="410" src="teampic4.jpg" alt="pic with cup"></li>
+                        <li class="slide"><img width="410" src="teampic5.jpg" alt="pic with cup"></li>
+                    </ul>
+                
+                
+                </div>
+                <br>
+                <br>2020 SENIOR DH CHAMPION OF CATALONIA</br>
+                <br>
+                The 2020 Honor Division team led by José Luis Riera is the current Campió de Catalunya 2020 and has qualified 4th in the
+                Honor Division League with the greatest presence in its history of homegrown players trained in the lower categories.
+                <br>
+                <iframe style="margin: 20;" width="420" height="345" src="https://www.youtube.com/embed/M2flh6iNcIk?autoplay=1">
+                </iframe>
+                <br><br><br><br>
+                <br>
+                    <b>CHILDREN CHAMPION OF SPAIN 2015</b>
+                <br>
+                <img id="img3" src="pic10.jpg" alt="pic with team">
+                <br>
+                El equipo Infantil ha realizado un gran Campeonato venciendo en una semi final espectacular a Sant Boi por 1-0 y en la
+                final a Villalbilla.
+                <br>
+                <iframe style="margin: 20;" width="420" height="345" src="https://www.youtube.com/embed/7Bt43ZHYqIk?autoplay=1">
+                </iframe>
+                <br><br><br><br>
+                <b>CHAMPIONS OF THE CUP OF THE KING 2014</b>
+                <br>
+                <img id="img3" src="pic11.jpg" alt="pic with team">
+                <br>
+                The Barcelona Baseball Club has been proclaimed in Bilbao Champion of the Copa del Rey by beating the Marlins of
+                Tenerife by 12-2 in 7 innings. Great game by Eric Paez from the mound and Oscar Angulo on offense being the MVP of the
+                final, with a home run and a two-run single. In the semi-final, a great match for Larry Suárez against Sant Boi to get
+                the victory by 6 to 3.
+                <br>
+                <iframe style="margin: 20;" width="420" height="345" src="https://www.youtube.com/embed/7Bt43ZHYqIk?autoplay=1">
+                </iframe>
+                <br><br><br><br>
+                <b>THE CADET CHAMPION OF SPAIN 2013</b>
+                <br>
+                <img id="img3" src="pic12.jpg" alt="pic with team">
+                <br>
+                The Cadet team of the Barcelona Baseball Club has been proclaimed Champion of Spain 2014. Great Tournament of our cadets
+                who have finished the competition undefeated and playing a high level baseball.
+                <br><br><br><br>
+                <b>DAY 6 / FINAL JUNE 9</b>
+                <br>
+                <img id="img1" src="pic13.jpg" alt="pic with team">
+                <br>
+                <br>
+                Rouen Huskies 1 - CB Barcelona 2
+                <br>
+                With this triumph the Club Beisbol Barcelona gets the 4th position.
+                <br>
+                <iframe style="margin: 20;" width="420" height="345" src="https://www.youtube.com/embed/oLNkvwcfsWc?autoplay=1">
+                </iframe>
+
+
+            </div>
+            <div id="div1">
+                <img id="img1" src="pic4.jpg" alt="pic with cup">
+                <a class="abutton" href="homepage.html" target="_self"> Click Here !!!</a>
+            </div>
+            
+        </div>
+
+
+
+    </div>
+
+    
+    <script src="jquery.min.js"> </script>
+    <script>
+        var currentSlide = 1;
+        var $slider = $(".slides");
+        var slideCount = $slider.children().length;
+        var slideTime = 2000;
+        var animationTime = 1000;
+
+        setInterval(function () {
+            $slider.animate({
+                marginLeft: "-=410"
+            }, animationTime, function () {
+                currentSlide++;
+                if (currentSlide == slideCount) {
+                    currentSlide = 1;
+                    $(this).css("margin-left", "0px");
+                }
+            });
+
+        }, slideTime);
+
+
+    </script>
+</body>
+<div class="navbar">
+
+    <a>Did you like our website ??</a>
+    <a href="feedback.html" class="active">Click Here to send feedback</a>
+
+</div>
+
+
+
+
+
+
+
+
+
+</html>

@@ -1,0 +1,137 @@
+<html>
+<header>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="angular.js"></script>
+</header>
+
+
+<h1 class="head">
+    BARCELONE BASEBALL SOFTBALL CLUB
+</h1>
+
+<body id="bodyInfo">
+
+
+    <div class="topnav">
+
+        <div class="topnav-centered">
+            <a href="feedback.html" class="active">FEEDBACK</a>
+        </div>
+
+        
+        <a href="schedules.html">SCHEDULES 2020</a>
+        <a href="honordivision.html">HONOR DIVISION</a>
+        <a href="homepage.html">HOME</a>
+        
+
+
+        <div class="topnav-right">
+            <a href="socialmedia.html">SOCIAL MEDIA</a>
+            <a href="info.html">INFO</a>
+        </div>
+
+    </div>
+
+    <div id="grandParentDiv">
+        <div id="parentDiv">
+            <div id="div1">
+                <img id="img1" src="teampic1.jpg" alt="pic with cup">
+                <a class="abutton" href="homepage.html" target="_self"> Click Me !!!</a>
+            </div>
+
+
+
+            <div id = "div4">
+                <div ng-controller="ExampleController">
+                    <form novalidate class="css-form">
+                        <label> Please write any feedback you want to share with us!!</label><br><br>
+                        <label>Name: <input type="text" ng-model="name" required /></label><br>
+                        <label>E-mail: <input type="email" ng-model="email" required /></label><br>
+                        <label> <label><input type="radio" ng-model="gender" value="male" />male</label></label><br>
+                        <label><input type="radio" ng-model="gender" value="female" />female</label><br><br>
+                        <label>Feedback: <input id="feedback" type="text" ng-model="feedback" required /></label>
+                        <div class="popup" onclick="myFunction()">SEND MY FEEDBACK
+                            <span class="popuptext" id="myPopup">Your feedback is sent !!!</span>
+                        </div>
+                        
+                        
+                    </form>
+
+                    <label>My name : {{name}}</label><br>
+                    <label>My email : {{email}}</label><br>
+                    <label>My gender : {{gender}}</label><br>
+                    <label>My feedback : {{feedback}}</label><br><br><br>
+
+                </div>
+
+
+
+
+
+
+            </div>
+            
+
+
+
+
+
+
+            <div id="div1">
+                <img id="img1" src="logos.png" alt="pic with cup">
+                <a class="abutton" href="socialmedia.html" target="_self"> Click Me !!!</a>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+    
+
+    <body ng-app="formExample">
+        <script>
+            angular.module('formExample', [])
+                .controller('ExampleController', ['$scope', function ($scope) {
+                    $scope.master = {};
+
+                    $scope.update = function (user) {
+                        $scope.master = angular.copy(user);
+                    };
+
+                    $scope.reset = function () {
+                        $scope.user = angular.copy($scope.master);
+                    };
+
+                    $scope.reset();
+                }]);
+        </script>
+
+
+
+    </body>
+    <script>
+        // When the user clicks on div, open the popup
+        function myFunction() {
+            var popup = document.getElementById("myPopup");
+            popup.classList.toggle("show");
+        }
+        
+
+
+    </script>
+
+
+</body>
+
+<div class="navbar">
+
+    <a>Did you like our website ??</a>
+    <a href="feedback.html" class="active">Click Here to send feedback</a>
+
+</div>
+
+</html>
